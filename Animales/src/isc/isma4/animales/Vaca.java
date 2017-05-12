@@ -10,5 +10,19 @@ package isc.isma4.animales;
  * @author marina
  */
 public class Vaca extends Animal{
+    // public void habla(){
+   
+    double Muuu;
+     
+    public Vaca (double Muuu){
+        
+        this.Muuu=Muuu;
+    } 
+
+    @Override
+    public double getSonido() {
+        return Muuu;
+    }
     
-}
+    }
+   

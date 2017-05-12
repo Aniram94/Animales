@@ -11,4 +11,17 @@ package isc.isma4.animales;
  */
 public class Pato extends Animal{
     
-}
+    double Cuac;
+     
+    public Pato (double Muuu){
+        
+        this.Cuac=Cuac;
+    } 
+
+    @Override
+    public double getSonido() {
+        return Cuac;
+    }
+    
+    }
+   

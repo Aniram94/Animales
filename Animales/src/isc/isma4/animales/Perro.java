@@ -10,5 +10,21 @@ package isc.isma4.animales;
  * @author marina
  */
 public class Perro extends Animal{
+    // public void habla(){
+
+   
+    double Wof;
+     
+    public Perro (double Wof){
+        
+        this.Wof=Wof;
+    } 
+
+    @Override
+    public double getSonido() {
+        return Wof;
+    }
     
-}
+    }
+    
+    

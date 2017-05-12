@@ -10,5 +10,23 @@ package isc.isma4.animales;
  * @author marina
  */
 public class Pollito extends Animal{
+    // public void habla(){
+
+    double Pio;
+     
+    public Pollito (double Pio){
+        
+        this.Pio=Pio;
+    } 
+
+    @Override
+    public double getSonido() {
+        return Pio;
+    }
     
-}
+    }
+    
+    
+    
+    
+

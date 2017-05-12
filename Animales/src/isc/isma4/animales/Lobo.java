@@ -10,5 +10,23 @@ package isc.isma4.animales;
  * @author marina
  */
 public class Lobo extends Animal{
+    // public void habla(){
+   
+    double Aauu;
+     
+    public Lobo (double Aauu){
+        
+        this.Aauu=Aauu;
+    } 
+
+    @Override
+    public double getSonido() {
+        return Aauu;
+    }
     
-}
+    }
+    
+    
+    
+    
+
